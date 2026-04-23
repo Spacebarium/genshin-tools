@@ -1,0 +1,206 @@
+.character-table {
+    table-layout: fixed;
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+    min-width: 80em;
+    line-height: 1.2;
+    font-size: 12px;
+
+    * {
+        cursor: default;
+    }
+
+    thead :is([data-col="is-owned"], [data-col="name"]) {
+        background: var(--bg-header);
+        z-index: 2;
+    }
+
+    th {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        height: 2.6em;
+        background: var(--bg-header);
+        border-bottom: 2px solid var(--border-accent);
+
+        font-weight: 700;
+        font-size: 10.5px;
+        text-align: center;
+        color: var(--text-secondary);
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        cursor: pointer;
+        user-select: none;
+
+        transition: color 0.15s;
+
+        &:hover {
+            color: var(--text-primary);
+        }
+    }
+
+    tbody tr {
+        &:nth-child(even) {
+            background: var(--row-even);
+        }
+
+        &:hover {
+            background: var(--row-hover);
+        }
+
+        &:not([data-owned="true"]) {
+            opacity: 0.4;
+
+            &:hover {
+                opacity: 0.6;
+            }
+        }
+    }
+
+    tbody :is([data-col="is-owned"], [data-col="name"]) {
+        background: var(--bg-base);
+    }
+
+    tbody tr:nth-child(even) :is([data-col="is-owned"], [data-col="name"]) {
+        background: var(--row-even);
+    }
+
+    tbody tr:hover :is([data-col="is-owned"], [data-col="name"]) {
+        background: var(--row-hover);
+    }
+
+    td {
+        height: 2em;
+        border-bottom: 1px solid rgba(42, 45, 62, 0.5);
+        color: var(--text-primary);
+        vertical-align: middle;
+    }
+
+    td,
+    th {
+        padding: 0 0.4em;
+        white-space: nowrap;
+    }
+
+    input[type="number"] {
+        -moz-appearance: textfield;
+        appearance: textfield;
+        background: none;
+        border: none;
+        padding: 0;
+        line-height: 1;
+        width: 15.6px; /* force consistent, roughly 2 chars wide */
+        color: var(--text-primary);
+        text-align: center;
+
+        &:focus {
+            outline: none;
+            color: var(--accent);
+        }
+
+        &[data-crowned="true"] {
+            color: var(--accent);
+            font-weight: 700;
+        }
+
+        &[data-c6="true"] {
+            color: var(--accent);
+            font-weight: 700;
+        }
+
+        &::-webkit-outer-spin-button,
+        &::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+    }
+
+    input[type="checkbox"] {
+        width: 13px;
+        height: 13px;
+        margin: 3px;
+        accent-color: var(--accent);
+        cursor: pointer;
+    }
+
+    [data-col="is-owned"] {
+        left: 0;
+        width: 2.4em;
+        text-align: center;
+    }
+
+    [data-col="name"] {
+        left: 25.2px; /* width of is-owned col */
+        width: 12.5em;
+
+        span {
+            display: block;
+            padding-left: 0.4em;
+            border-left: 3px solid var(--element-colour, transparent);
+        }
+    }
+
+    [data-col="is-owned"],
+    [data-col="name"] {
+        position: sticky;
+        z-index: 1;
+    }
+
+    [data-col="element"] {
+        width: 6em;
+    }
+
+    [data-col="rarity"] {
+        width: 3em;
+        text-align: center;
+    }
+
+    [data-col="release-patch"] {
+        width: 4.5em;
+        text-align: center;
+
+        .pill {
+            letter-spacing: 0.02em;
+        }
+    }
+
+    [data-col="level"] {
+        width: 4.5em;
+        text-align: center;
+
+        * {
+            letter-spacing: 0.02em;
+        }
+    }
+
+    [data-col="constellation"],
+    [data-col^="talent-"] {
+        width: 2.7em;
+        max-width: 2.7em;
+        text-align: center;
+    }
+
+    [data-col="materials-talent-book"] {
+        width: 8.2em;
+    }
+
+    [data-col="materials-ascension-boss"] {
+        width: 56%;
+    }
+
+    [data-col="materials-weekly-boss-material"] {
+        width: 44%;
+    }
+
+    .level-cell {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .ascension-max {
+        color: var(--text-secondary);
+        font-size: 0.85em;
+    }
+}

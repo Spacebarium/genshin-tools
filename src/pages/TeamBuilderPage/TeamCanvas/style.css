@@ -1,0 +1,6 @@
+.team-canvas {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background: var(--bg-base);
+}

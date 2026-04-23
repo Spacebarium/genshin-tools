@@ -1,0 +1,44 @@
+:root {
+    --default: #2e3140;
+    --colour-anemo: #a9f3cc;
+    --colour-geo: #f6d664;
+    --colour-electro: #dfbdff;
+    --colour-dendro: #afea29;
+    --colour-hydro: #24e8ff;
+    --colour-pyro: #fda76f;
+    --colour-cryo: #9afdff;
+    --colour-rarity-4: #c77dff;
+    --colour-rarity-5: #f4a716;
+
+    --bg-base: #0d0e14;
+    --bg-surface: #13141d;
+    --bg-raised: #1a1c28;
+    --bg-header: #0a0b10;
+
+    --border: #2a2d3e;
+    --border-accent: #3d4260;
+
+    --text-primary: #e8eaf0;
+    --text-secondary: #8b8d9f;
+    --text-heading: #ffffff;
+    --text-pill: rgba(0, 0, 0, 0.8);
+
+    --accent: #c8a96e;
+    --accent-glow: rgba(200, 169, 110, 0.15);
+
+    --row-even: #111320;
+    --row-hover: #1e2030;
+}
+
+#root {
+    margin: 0;
+    overflow: hidden;
+    font-family: "Atkinson Hyperlegible Next", sans-serif;
+    background: var(--bg-base);
+    color: var(--text-primary);
+}
+
+select,
+::picker(select) {
+    appearance: base-select;
+}

@@ -1,0 +1,1565 @@
+{
+    "kamisato-ayaka": {
+        "id": "kamisato-ayaka",
+        "gameId": 10000002,
+        "name": "Kamisato Ayaka",
+        "shortName": "Ayaka",
+        "element": "Cryo",
+        "weaponType": "Sword",
+        "rarity": 5,
+        "releasePatch": "2.0",
+        "materials": {
+            "ascensionBoss": "Perpetual Mechanical Array",
+            "weeklyBossMaterial": "Bloodjade Branch",
+            "talentBook": "Elegance"
+        }
+    },
+    "jean": {
+        "id": "jean",
+        "gameId": 10000003,
+        "name": "Jean",
+        "element": "Anemo",
+        "weaponType": "Sword",
+        "rarity": 5,
+        "releasePatch": "1.0",
+        "materials": {
+            "ascensionBoss": "Anemo Hypostasis",
+            "weeklyBossMaterial": "Dvalin's Plume",
+            "talentBook": "Resistance"
+        }
+    },
+    "lisa": {
+        "id": "lisa",
+        "gameId": 10000006,
+        "name": "Lisa",
+        "element": "Electro",
+        "weaponType": "Catalyst",
+        "rarity": 4,
+        "releasePatch": "1.0",
+        "materials": {
+            "ascensionBoss": "Electro Hypostasis",
+            "weeklyBossMaterial": "Dvalin's Claw",
+            "talentBook": "Ballad"
+        }
+    },
+    "barbara": {
+        "id": "barbara",
+        "gameId": 10000014,
+        "name": "Barbara",
+        "element": "Hydro",
+        "weaponType": "Catalyst",
+        "rarity": 4,
+        "releasePatch": "1.0",
+        "materials": {
+            "ascensionBoss": "Oceanid",
+            "weeklyBossMaterial": "Ring of Boreas",
+            "talentBook": "Freedom"
+        }
+    },
+    "kaeya": {
+        "id": "kaeya",
+        "gameId": 10000015,
+        "name": "Kaeya",
+        "element": "Cryo",
+        "weaponType": "Sword",
+        "rarity": 4,
+        "releasePatch": "1.0",
+        "materials": {
+            "ascensionBoss": "Cryo Regisvine",
+            "weeklyBossMaterial": "Spirit Locket of Boreas",
+            "talentBook": "Ballad"
+        }
+    },
+    "diluc": {
+        "id": "diluc",
+        "gameId": 10000016,
+        "name": "Diluc",
+        "element": "Pyro",
+        "weaponType": "Claymore",
+        "rarity": 5,
+        "releasePatch": "1.0",
+        "materials": {
+            "ascensionBoss": "Pyro Regisvine",
+            "weeklyBossMaterial": "Dvalin's Plume",
+            "talentBook": "Resistance"
+        }
+    },
+    "razor": {
+        "id": "razor",
+        "gameId": 10000020,
+        "name": "Razor",
+        "element": "Electro",
+        "weaponType": "Claymore",
+        "rarity": 4,
+        "releasePatch": "1.0",
+        "materials": {
+            "ascensionBoss": "Electro Hypostasis",
+            "weeklyBossMaterial": "Dvalin's Claw",
+            "talentBook": "Resistance"
+        }
+    },
+    "amber": {
+        "id": "amber",
+        "gameId": 10000021,
+        "name": "Amber",
+        "element": "Pyro",
+        "weaponType": "Bow",
+        "rarity": 4,
+        "releasePatch": "1.0",
+        "materials": {
+            "ascensionBoss": "Pyro Regisvine",
+            "weeklyBossMaterial": "Dvalin's Sigh",
+            "talentBook": "Freedom"
+        }
+    },
+    "venti": {
+        "id": "venti",
+        "gameId": 10000022,
+        "name": "Venti",
+        "element": "Anemo",
+        "weaponType": "Bow",
+        "rarity": 5,
+        "releasePatch": "1.0",
+        "materials": {
+            "ascensionBoss": "Anemo Hypostasis",
+            "weeklyBossMaterial": "Tail of Boreas",
+            "talentBook": "Ballad"
+        }
+    },
+    "xiangling": {
+        "id": "xiangling",
+        "gameId": 10000023,
+        "name": "Xiangling",
+        "element": "Pyro",
+        "weaponType": "Polearm",
+        "rarity": 4,
+        "releasePatch": "1.0",
+        "materials": {
+            "ascensionBoss": "Pyro Regisvine",
+            "weeklyBossMaterial": "Dvalin's Claw",
+            "talentBook": "Diligence"
+        }
+    },
+    "beidou": {
+        "id": "beidou",
+        "gameId": 10000024,
+        "name": "Beidou",
+        "element": "Electro",
+        "weaponType": "Claymore",
+        "rarity": 4,
+        "releasePatch": "1.0",
+        "materials": {
+            "ascensionBoss": "Electro Hypostasis",
+            "weeklyBossMaterial": "Dvalin's Sigh",
+            "talentBook": "Gold"
+        }
+    },
+    "xingqiu": {
+        "id": "xingqiu",
+        "gameId": 10000025,
+        "name": "Xingqiu",
+        "element": "Hydro",
+        "weaponType": "Sword",
+        "rarity": 4,
+        "releasePatch": "1.0",
+        "materials": {
+            "ascensionBoss": "Oceanid",
+            "weeklyBossMaterial": "Tail of Boreas",
+            "talentBook": "Gold"
+        }
+    },
+    "xiao": {
+        "id": "xiao",
+        "gameId": 10000026,
+        "name": "Xiao",
+        "element": "Anemo",
+        "weaponType": "Polearm",
+        "rarity": 5,
+        "releasePatch": "1.3",
+        "materials": {
+            "ascensionBoss": "Primo Geovishap",
+            "weeklyBossMaterial": "Shadow of the Warrior",
+            "talentBook": "Prosperity"
+        }
+    },
+    "ningguang": {
+        "id": "ningguang",
+        "gameId": 10000027,
+        "name": "Ningguang",
+        "element": "Geo",
+        "weaponType": "Catalyst",
+        "rarity": 4,
+        "releasePatch": "1.0",
+        "materials": {
+            "ascensionBoss": "Geo Hypostasis",
+            "weeklyBossMaterial": "Spirit Locket of Boreas",
+            "talentBook": "Prosperity"
+        }
+    },
+    "klee": {
+        "id": "klee",
+        "gameId": 10000029,
+        "name": "Klee",
+        "element": "Pyro",
+        "weaponType": "Catalyst",
+        "rarity": 5,
+        "releasePatch": "1.0",
+        "materials": {
+            "ascensionBoss": "Pyro Regisvine",
+            "weeklyBossMaterial": "Ring of Boreas",
+            "talentBook": "Freedom"
+        }
+    },
+    "zhongli": {
+        "id": "zhongli",
+        "gameId": 10000030,
+        "name": "Zhongli",
+        "element": "Geo",
+        "weaponType": "Polearm",
+        "rarity": 5,
+        "releasePatch": "1.1",
+        "materials": {
+            "ascensionBoss": "Geo Hypostasis",
+            "weeklyBossMaterial": "Tusk of Monoceros Caeli",
+            "talentBook": "Gold"
+        }
+    },
+    "fischl": {
+        "id": "fischl",
+        "gameId": 10000031,
+        "name": "Fischl",
+        "element": "Electro",
+        "weaponType": "Bow",
+        "rarity": 4,
+        "releasePatch": "1.0",
+        "materials": {
+            "ascensionBoss": "Electro Hypostasis",
+            "weeklyBossMaterial": "Spirit Locket of Boreas",
+            "talentBook": "Ballad"
+        }
+    },
+    "bennett": {
+        "id": "bennett",
+        "gameId": 10000032,
+        "name": "Bennett",
+        "element": "Pyro",
+        "weaponType": "Sword",
+        "rarity": 4,
+        "releasePatch": "1.0",
+        "materials": {
+            "ascensionBoss": "Pyro Regisvine",
+            "weeklyBossMaterial": "Dvalin's Plume",
+            "talentBook": "Resistance"
+        }
+    },
+    "tartaglia": {
+        "id": "tartaglia",
+        "gameId": 10000033,
+        "name": "Tartaglia",
+        "element": "Hydro",
+        "weaponType": "Bow",
+        "rarity": 5,
+        "releasePatch": "1.1",
+        "materials": {
+            "ascensionBoss": "Oceanid",
+            "weeklyBossMaterial": "Shard of a Foul Legacy",
+            "talentBook": "Freedom"
+        }
+    },
+    "noelle": {
+        "id": "noelle",
+        "gameId": 10000034,
+        "name": "Noelle",
+        "element": "Geo",
+        "weaponType": "Claymore",
+        "rarity": 4,
+        "releasePatch": "1.0",
+        "materials": {
+            "ascensionBoss": "Geo Hypostasis",
+            "weeklyBossMaterial": "Dvalin's Claw",
+            "talentBook": "Resistance"
+        }
+    },
+    "qiqi": {
+        "id": "qiqi",
+        "gameId": 10000035,
+        "name": "Qiqi",
+        "element": "Cryo",
+        "weaponType": "Sword",
+        "rarity": 5,
+        "releasePatch": "1.0",
+        "materials": {
+            "ascensionBoss": "Cryo Regisvine",
+            "weeklyBossMaterial": "Tail of Boreas",
+            "talentBook": "Prosperity"
+        }
+    },
+    "chongyun": {
+        "id": "chongyun",
+        "gameId": 10000036,
+        "name": "Chongyun",
+        "element": "Cryo",
+        "weaponType": "Claymore",
+        "rarity": 4,
+        "releasePatch": "1.0",
+        "materials": {
+            "ascensionBoss": "Cryo Regisvine",
+            "weeklyBossMaterial": "Dvalin's Sigh",
+            "talentBook": "Diligence"
+        }
+    },
+    "ganyu": {
+        "id": "ganyu",
+        "gameId": 10000037,
+        "name": "Ganyu",
+        "element": "Cryo",
+        "weaponType": "Bow",
+        "rarity": 5,
+        "releasePatch": "1.2",
+        "materials": {
+            "ascensionBoss": "Cryo Regisvine",
+            "weeklyBossMaterial": "Shadow of the Warrior",
+            "talentBook": "Diligence"
+        }
+    },
+    "albedo": {
+        "id": "albedo",
+        "gameId": 10000038,
+        "name": "Albedo",
+        "element": "Geo",
+        "weaponType": "Sword",
+        "rarity": 5,
+        "releasePatch": "1.2",
+        "materials": {
+            "ascensionBoss": "Geo Hypostasis",
+            "weeklyBossMaterial": "Tusk of Monoceros Caeli",
+            "talentBook": "Ballad"
+        }
+    },
+    "diona": {
+        "id": "diona",
+        "gameId": 10000039,
+        "name": "Diona",
+        "element": "Cryo",
+        "weaponType": "Bow",
+        "rarity": 4,
+        "releasePatch": "1.1",
+        "materials": {
+            "ascensionBoss": "Cryo Regisvine",
+            "weeklyBossMaterial": "Shard of a Foul Legacy",
+            "talentBook": "Freedom"
+        }
+    },
+    "mona": {
+        "id": "mona",
+        "gameId": 10000041,
+        "name": "Mona",
+        "element": "Hydro",
+        "weaponType": "Catalyst",
+        "rarity": 5,
+        "releasePatch": "1.0",
+        "materials": {
+            "ascensionBoss": "Oceanid",
+            "weeklyBossMaterial": "Ring of Boreas",
+            "talentBook": "Resistance"
+        }
+    },
+    "keqing": {
+        "id": "keqing",
+        "gameId": 10000042,
+        "name": "Keqing",
+        "element": "Electro",
+        "weaponType": "Sword",
+        "rarity": 5,
+        "releasePatch": "1.0",
+        "materials": {
+            "ascensionBoss": "Electro Hypostasis",
+            "weeklyBossMaterial": "Ring of Boreas",
+            "talentBook": "Prosperity"
+        }
+    },
+    "sucrose": {
+        "id": "sucrose",
+        "gameId": 10000043,
+        "name": "Sucrose",
+        "element": "Anemo",
+        "weaponType": "Catalyst",
+        "rarity": 4,
+        "releasePatch": "1.0",
+        "materials": {
+            "ascensionBoss": "Anemo Hypostasis",
+            "weeklyBossMaterial": "Spirit Locket of Boreas",
+            "talentBook": "Freedom"
+        }
+    },
+    "xinyan": {
+        "id": "xinyan",
+        "gameId": 10000044,
+        "name": "Xinyan",
+        "element": "Pyro",
+        "weaponType": "Claymore",
+        "rarity": 4,
+        "releasePatch": "1.1",
+        "materials": {
+            "ascensionBoss": "Pyro Regisvine",
+            "weeklyBossMaterial": "Tusk of Monoceros Caeli",
+            "talentBook": "Gold"
+        }
+    },
+    "rosaria": {
+        "id": "rosaria",
+        "gameId": 10000045,
+        "name": "Rosaria",
+        "element": "Cryo",
+        "weaponType": "Polearm",
+        "rarity": 4,
+        "releasePatch": "1.4",
+        "materials": {
+            "ascensionBoss": "Cryo Regisvine",
+            "weeklyBossMaterial": "Shadow of the Warrior",
+            "talentBook": "Ballad"
+        }
+    },
+    "hu-tao": {
+        "id": "hu-tao",
+        "gameId": 10000046,
+        "name": "Hu Tao",
+        "element": "Pyro",
+        "weaponType": "Polearm",
+        "rarity": 5,
+        "releasePatch": "1.3",
+        "materials": {
+            "ascensionBoss": "Primo Geovishap",
+            "weeklyBossMaterial": "Shard of a Foul Legacy",
+            "talentBook": "Diligence"
+        }
+    },
+    "kaedehara-kazuha": {
+        "id": "kaedehara-kazuha",
+        "gameId": 10000047,
+        "name": "Kaedehara Kazuha",
+        "shortName": "Kazuha",
+        "element": "Anemo",
+        "weaponType": "Sword",
+        "rarity": 5,
+        "releasePatch": "1.6",
+        "materials": {
+            "ascensionBoss": "Maguu Kenki",
+            "weeklyBossMaterial": "Gilded Scale",
+            "talentBook": "Diligence"
+        }
+    },
+    "yanfei": {
+        "id": "yanfei",
+        "gameId": 10000048,
+        "name": "Yanfei",
+        "element": "Pyro",
+        "weaponType": "Catalyst",
+        "rarity": 4,
+        "releasePatch": "1.5",
+        "materials": {
+            "ascensionBoss": "Primo Geovishap",
+            "weeklyBossMaterial": "Bloodjade Branch",
+            "talentBook": "Gold"
+        }
+    },
+    "yoimiya": {
+        "id": "yoimiya",
+        "gameId": 10000049,
+        "name": "Yoimiya",
+        "element": "Pyro",
+        "weaponType": "Bow",
+        "rarity": 5,
+        "releasePatch": "2.0",
+        "materials": {
+            "ascensionBoss": "Pyro Hypostasis",
+            "weeklyBossMaterial": "Dragon Lord's Crown",
+            "talentBook": "Transience"
+        }
+    },
+    "thoma": {
+        "id": "thoma",
+        "gameId": 10000050,
+        "name": "Thoma",
+        "element": "Pyro",
+        "weaponType": "Polearm",
+        "rarity": 4,
+        "releasePatch": "2.2",
+        "materials": {
+            "ascensionBoss": "Pyro Hypostasis",
+            "weeklyBossMaterial": "Hellfire Butterfly",
+            "talentBook": "Transience"
+        }
+    },
+    "eula": {
+        "id": "eula",
+        "gameId": 10000051,
+        "name": "Eula",
+        "element": "Cryo",
+        "weaponType": "Claymore",
+        "rarity": 5,
+        "releasePatch": "1.5",
+        "materials": {
+            "ascensionBoss": "Cryo Hypostasis",
+            "weeklyBossMaterial": "Dragon Lord's Crown",
+            "talentBook": "Resistance"
+        }
+    },
+    "raiden-shogun": {
+        "id": "raiden-shogun",
+        "gameId": 10000052,
+        "name": "Raiden Shogun",
+        "shortName": "Raiden",
+        "element": "Electro",
+        "weaponType": "Polearm",
+        "rarity": 5,
+        "releasePatch": "2.1",
+        "materials": {
+            "ascensionBoss": "Thunder Manifestation",
+            "weeklyBossMaterial": "Molten Moment",
+            "talentBook": "Light"
+        }
+    },
+    "sayu": {
+        "id": "sayu",
+        "gameId": 10000053,
+        "name": "Sayu",
+        "element": "Anemo",
+        "weaponType": "Claymore",
+        "rarity": 4,
+        "releasePatch": "2.0",
+        "materials": {
+            "ascensionBoss": "Maguu Kenki",
+            "weeklyBossMaterial": "Gilded Scale",
+            "talentBook": "Light"
+        }
+    },
+    "sangonomiya-kokomi": {
+        "id": "sangonomiya-kokomi",
+        "gameId": 10000054,
+        "name": "Sangonomiya Kokomi",
+        "shortName": "Kokomi",
+        "element": "Hydro",
+        "weaponType": "Catalyst",
+        "rarity": 5,
+        "releasePatch": "2.1",
+        "materials": {
+            "ascensionBoss": "Hydro Hypostasis",
+            "weeklyBossMaterial": "Hellfire Butterfly",
+            "talentBook": "Transience"
+        }
+    },
+    "gorou": {
+        "id": "gorou",
+        "gameId": 10000055,
+        "name": "Gorou",
+        "element": "Geo",
+        "weaponType": "Bow",
+        "rarity": 4,
+        "releasePatch": "2.3",
+        "materials": {
+            "ascensionBoss": "Perpetual Mechanical Array",
+            "weeklyBossMaterial": "Molten Moment",
+            "talentBook": "Light"
+        }
+    },
+    "kujou-sara": {
+        "id": "kujou-sara",
+        "gameId": 10000056,
+        "name": "Kujou Sara",
+        "shortName": "Sara",
+        "element": "Electro",
+        "weaponType": "Bow",
+        "rarity": 4,
+        "releasePatch": "2.1",
+        "materials": {
+            "ascensionBoss": "Thunder Manifestation",
+            "weeklyBossMaterial": "Ashen Heart",
+            "talentBook": "Elegance"
+        }
+    },
+    "arataki-itto": {
+        "id": "arataki-itto",
+        "gameId": 10000057,
+        "name": "Arataki Itto",
+        "shortName": "Itto",
+        "element": "Geo",
+        "weaponType": "Claymore",
+        "rarity": 5,
+        "releasePatch": "2.3",
+        "materials": {
+            "ascensionBoss": "Golden Wolflord",
+            "weeklyBossMaterial": "Ashen Heart",
+            "talentBook": "Elegance"
+        }
+    },
+    "yae-miko": {
+        "id": "yae-miko",
+        "gameId": 10000058,
+        "name": "Yae Miko",
+        "element": "Electro",
+        "weaponType": "Catalyst",
+        "rarity": 5,
+        "releasePatch": "2.5",
+        "materials": {
+            "ascensionBoss": "Coral Defenders",
+            "weeklyBossMaterial": "The Meaning of Aeons",
+            "talentBook": "Light"
+        }
+    },
+    "shikanoin-heizou": {
+        "id": "shikanoin-heizou",
+        "gameId": 10000059,
+        "name": "Shikanoin Heizou",
+        "shortName": "Heizou",
+        "element": "Anemo",
+        "weaponType": "Catalyst",
+        "rarity": 4,
+        "releasePatch": "2.8",
+        "materials": {
+            "ascensionBoss": "Ruin Serpent",
+            "weeklyBossMaterial": "The Meaning of Aeons",
+            "talentBook": "Transience"
+        }
+    },
+    "yelan": {
+        "id": "yelan",
+        "gameId": 10000060,
+        "name": "Yelan",
+        "element": "Hydro",
+        "weaponType": "Bow",
+        "rarity": 5,
+        "releasePatch": "2.7",
+        "materials": {
+            "ascensionBoss": "Ruin Serpent",
+            "weeklyBossMaterial": "Gilded Scale",
+            "talentBook": "Prosperity"
+        }
+    },
+    "kirara": {
+        "id": "kirara",
+        "gameId": 10000061,
+        "name": "Kirara",
+        "element": "Dendro",
+        "weaponType": "Sword",
+        "rarity": 4,
+        "releasePatch": "3.7",
+        "materials": {
+            "ascensionBoss": "Iniquitous Baptist",
+            "weeklyBossMaterial": "Everamber",
+            "talentBook": "Transience"
+        }
+    },
+    "aloy": {
+        "id": "aloy",
+        "gameId": 10000062,
+        "name": "Aloy",
+        "element": "Cryo",
+        "weaponType": "Bow",
+        "rarity": 5,
+        "releasePatch": "2.1",
+        "materials": {
+            "ascensionBoss": "Cryo Hypostasis",
+            "weeklyBossMaterial": "Molten Moment",
+            "talentBook": "Freedom"
+        }
+    },
+    "shenhe": {
+        "id": "shenhe",
+        "gameId": 10000063,
+        "name": "Shenhe",
+        "element": "Cryo",
+        "weaponType": "Polearm",
+        "rarity": 5,
+        "releasePatch": "2.4",
+        "materials": {
+            "ascensionBoss": "Coral Defenders",
+            "weeklyBossMaterial": "Hellfire Butterfly",
+            "talentBook": "Prosperity"
+        }
+    },
+    "yun-jin": {
+        "id": "yun-jin",
+        "gameId": 10000064,
+        "name": "Yun Jin",
+        "element": "Geo",
+        "weaponType": "Polearm",
+        "rarity": 4,
+        "releasePatch": "2.4",
+        "materials": {
+            "ascensionBoss": "Golden Wolflord",
+            "weeklyBossMaterial": "Ashen Heart",
+            "talentBook": "Diligence"
+        }
+    },
+    "kuki-shinobu": {
+        "id": "kuki-shinobu",
+        "gameId": 10000065,
+        "name": "Kuki Shinobu",
+        "element": "Electro",
+        "weaponType": "Sword",
+        "rarity": 4,
+        "releasePatch": "2.7",
+        "materials": {
+            "ascensionBoss": "Ruin Serpent",
+            "weeklyBossMaterial": "Tears of the Calamitous God",
+            "talentBook": "Elegance"
+        }
+    },
+    "kamisato-ayato": {
+        "id": "kamisato-ayato",
+        "gameId": 10000066,
+        "name": "Kamisato Ayato",
+        "shortName": "Ayato",
+        "element": "Hydro",
+        "weaponType": "Sword",
+        "rarity": 5,
+        "releasePatch": "2.6",
+        "materials": {
+            "ascensionBoss": "Hydro Hypostasis",
+            "weeklyBossMaterial": "Mudra of the Malefic General",
+            "talentBook": "Elegance"
+        }
+    },
+    "collei": {
+        "id": "collei",
+        "gameId": 10000067,
+        "name": "Collei",
+        "element": "Dendro",
+        "weaponType": "Bow",
+        "rarity": 4,
+        "releasePatch": "3.0",
+        "materials": {
+            "ascensionBoss": "Jadeplume Terrorshroom",
+            "weeklyBossMaterial": "Tears of the Calamitous God",
+            "talentBook": "Praxis"
+        }
+    },
+    "dori": {
+        "id": "dori",
+        "gameId": 10000068,
+        "name": "Dori",
+        "element": "Electro",
+        "weaponType": "Claymore",
+        "rarity": 4,
+        "releasePatch": "3.0",
+        "materials": {
+            "ascensionBoss": "Electro Regisvine",
+            "weeklyBossMaterial": "Bloodjade Branch",
+            "talentBook": "Ingenuity"
+        }
+    },
+    "tighnari": {
+        "id": "tighnari",
+        "gameId": 10000069,
+        "name": "Tighnari",
+        "element": "Dendro",
+        "weaponType": "Bow",
+        "rarity": 5,
+        "releasePatch": "3.0",
+        "materials": {
+            "ascensionBoss": "Jadeplume Terrorshroom",
+            "weeklyBossMaterial": "The Meaning of Aeons",
+            "talentBook": "Admonition"
+        }
+    },
+    "nilou": {
+        "id": "nilou",
+        "gameId": 10000070,
+        "name": "Nilou",
+        "element": "Hydro",
+        "weaponType": "Sword",
+        "rarity": 5,
+        "releasePatch": "3.1",
+        "materials": {
+            "ascensionBoss": "Aeonblight Drake",
+            "weeklyBossMaterial": "Tears of the Calamitous God",
+            "talentBook": "Praxis"
+        }
+    },
+    "cyno": {
+        "id": "cyno",
+        "gameId": 10000071,
+        "name": "Cyno",
+        "element": "Electro",
+        "weaponType": "Polearm",
+        "rarity": 5,
+        "releasePatch": "3.1",
+        "materials": {
+            "ascensionBoss": "Electro Regisvine",
+            "weeklyBossMaterial": "Mudra of the Malefic General",
+            "talentBook": "Admonition"
+        }
+    },
+    "candace": {
+        "id": "candace",
+        "gameId": 10000072,
+        "name": "Candace",
+        "element": "Hydro",
+        "weaponType": "Polearm",
+        "rarity": 4,
+        "releasePatch": "3.1",
+        "materials": {
+            "ascensionBoss": "Algorithm of Semi-Intransient Matrix of Overseer Network",
+            "weeklyBossMaterial": "Tears of the Calamitous God",
+            "talentBook": "Admonition"
+        }
+    },
+    "nahida": {
+        "id": "nahida",
+        "gameId": 10000073,
+        "name": "Nahida",
+        "element": "Dendro",
+        "weaponType": "Catalyst",
+        "rarity": 5,
+        "releasePatch": "3.2",
+        "materials": {
+            "ascensionBoss": "Dendro Hypostasis",
+            "weeklyBossMaterial": "Puppet Strings",
+            "talentBook": "Ingenuity"
+        }
+    },
+    "layla": {
+        "id": "layla",
+        "gameId": 10000074,
+        "name": "Layla",
+        "element": "Cryo",
+        "weaponType": "Sword",
+        "rarity": 4,
+        "releasePatch": "3.2",
+        "materials": {
+            "ascensionBoss": "Aeonblight Drake",
+            "weeklyBossMaterial": "Mirror of Mushin",
+            "talentBook": "Ingenuity"
+        }
+    },
+    "wanderer": {
+        "id": "wanderer",
+        "gameId": 10000075,
+        "name": "Wanderer",
+        "element": "Anemo",
+        "weaponType": "Catalyst",
+        "rarity": 5,
+        "releasePatch": "3.3",
+        "materials": {
+            "ascensionBoss": "Aeonblight Drake",
+            "weeklyBossMaterial": "Daka's Bell",
+            "talentBook": "Praxis"
+        }
+    },
+    "faruzan": {
+        "id": "faruzan",
+        "gameId": 10000076,
+        "name": "Faruzan",
+        "element": "Anemo",
+        "weaponType": "Bow",
+        "rarity": 4,
+        "releasePatch": "3.3",
+        "materials": {
+            "ascensionBoss": "Algorithm of Semi-Intransient Matrix of Overseer Network",
+            "weeklyBossMaterial": "Puppet Strings",
+            "talentBook": "Admonition"
+        }
+    },
+    "yaoyao": {
+        "id": "yaoyao",
+        "gameId": 10000077,
+        "name": "Yaoyao",
+        "element": "Dendro",
+        "weaponType": "Polearm",
+        "rarity": 4,
+        "releasePatch": "3.4",
+        "materials": {
+            "ascensionBoss": "Dendro Hypostasis",
+            "weeklyBossMaterial": "Daka's Bell",
+            "talentBook": "Diligence"
+        }
+    },
+    "alhaitham": {
+        "id": "alhaitham",
+        "gameId": 10000078,
+        "name": "Alhaitham",
+        "element": "Dendro",
+        "weaponType": "Sword",
+        "rarity": 5,
+        "releasePatch": "3.4",
+        "materials": {
+            "ascensionBoss": "Setekh Wenut",
+            "weeklyBossMaterial": "Mirror of Mushin",
+            "talentBook": "Ingenuity"
+        }
+    },
+    "dehya": {
+        "id": "dehya",
+        "gameId": 10000079,
+        "name": "Dehya",
+        "element": "Pyro",
+        "weaponType": "Claymore",
+        "rarity": 5,
+        "releasePatch": "3.5",
+        "materials": {
+            "ascensionBoss": "Algorithm of Semi-Intransient Matrix of Overseer Network",
+            "weeklyBossMaterial": "Puppet Strings",
+            "talentBook": "Praxis"
+        }
+    },
+    "mika": {
+        "id": "mika",
+        "gameId": 10000080,
+        "name": "Mika",
+        "element": "Cryo",
+        "weaponType": "Polearm",
+        "rarity": 4,
+        "releasePatch": "3.5",
+        "materials": {
+            "ascensionBoss": "Setekh Wenut",
+            "weeklyBossMaterial": "Mirror of Mushin",
+            "talentBook": "Ballad"
+        }
+    },
+    "kaveh": {
+        "id": "kaveh",
+        "gameId": 10000081,
+        "name": "Kaveh",
+        "element": "Dendro",
+        "weaponType": "Claymore",
+        "rarity": 4,
+        "releasePatch": "3.6",
+        "materials": {
+            "ascensionBoss": "Dendro Hypostasis",
+            "weeklyBossMaterial": "Primordial Greenbloom",
+            "talentBook": "Ingenuity"
+        }
+    },
+    "baizhu": {
+        "id": "baizhu",
+        "gameId": 10000082,
+        "name": "Baizhu",
+        "element": "Dendro",
+        "weaponType": "Catalyst",
+        "rarity": 5,
+        "releasePatch": "3.6",
+        "materials": {
+            "ascensionBoss": "Iniquitous Baptist",
+            "weeklyBossMaterial": "Worldspan Fern",
+            "talentBook": "Gold"
+        }
+    },
+    "lynette": {
+        "id": "lynette",
+        "gameId": 10000083,
+        "name": "Lynette",
+        "element": "Anemo",
+        "weaponType": "Sword",
+        "rarity": 4,
+        "releasePatch": "4.0",
+        "materials": {
+            "ascensionBoss": "Icewind Suite: Dirge of Coppelia",
+            "weeklyBossMaterial": "Everamber",
+            "talentBook": "Order"
+        }
+    },
+    "lyney": {
+        "id": "lyney",
+        "gameId": 10000084,
+        "name": "Lyney",
+        "element": "Pyro",
+        "weaponType": "Bow",
+        "rarity": 5,
+        "releasePatch": "4.0",
+        "materials": {
+            "ascensionBoss": "Emperor of Fire and Iron",
+            "weeklyBossMaterial": "Primordial Greenbloom",
+            "talentBook": "Equity"
+        }
+    },
+    "freminet": {
+        "id": "freminet",
+        "gameId": 10000085,
+        "name": "Freminet",
+        "element": "Cryo",
+        "weaponType": "Claymore",
+        "rarity": 4,
+        "releasePatch": "4.0",
+        "materials": {
+            "ascensionBoss": "Icewind Suite: Nemesis of Coppelius",
+            "weeklyBossMaterial": "Worldspan Fern",
+            "talentBook": "Justice"
+        }
+    },
+    "wriothesley": {
+        "id": "wriothesley",
+        "gameId": 10000086,
+        "name": "Wriothesley",
+        "element": "Cryo",
+        "weaponType": "Catalyst",
+        "rarity": 5,
+        "releasePatch": "4.1",
+        "materials": {
+            "ascensionBoss": "Experimental Field Generator",
+            "weeklyBossMaterial": "Primordial Greenbloom",
+            "talentBook": "Order"
+        }
+    },
+    "neuvillette": {
+        "id": "neuvillette",
+        "gameId": 10000087,
+        "name": "Neuvillette",
+        "element": "Hydro",
+        "weaponType": "Catalyst",
+        "rarity": 5,
+        "releasePatch": "4.1",
+        "materials": {
+            "ascensionBoss": "Millennial Pearl Seahorse",
+            "weeklyBossMaterial": "Everamber",
+            "talentBook": "Equity"
+        }
+    },
+    "charlotte": {
+        "id": "charlotte",
+        "gameId": 10000088,
+        "name": "Charlotte",
+        "element": "Cryo",
+        "weaponType": "Catalyst",
+        "rarity": 4,
+        "releasePatch": "4.2",
+        "materials": {
+            "ascensionBoss": "Experimental Field Generator",
+            "weeklyBossMaterial": "Lightless Silk String",
+            "talentBook": "Justice"
+        }
+    },
+    "furina": {
+        "id": "furina",
+        "gameId": 10000089,
+        "name": "Furina",
+        "element": "Hydro",
+        "weaponType": "Sword",
+        "rarity": 5,
+        "releasePatch": "4.2",
+        "materials": {
+            "ascensionBoss": "Hydro Tulpa",
+            "weeklyBossMaterial": "Lightless Mass",
+            "talentBook": "Justice"
+        }
+    },
+    "chevreuse": {
+        "id": "chevreuse",
+        "gameId": 10000090,
+        "name": "Chevreuse",
+        "element": "Pyro",
+        "weaponType": "Polearm",
+        "rarity": 4,
+        "releasePatch": "4.3",
+        "materials": {
+            "ascensionBoss": "Millennial Pearl Seahorse",
+            "weeklyBossMaterial": "Lightless Eye of the Maelstrom",
+            "talentBook": "Order"
+        }
+    },
+    "navia": {
+        "id": "navia",
+        "gameId": 10000091,
+        "name": "Navia",
+        "element": "Geo",
+        "weaponType": "Claymore",
+        "rarity": 5,
+        "releasePatch": "4.3",
+        "materials": {
+            "ascensionBoss": "Icewind Suite: Nemesis of Coppelius",
+            "weeklyBossMaterial": "Lightless Silk String",
+            "talentBook": "Equity"
+        }
+    },
+    "gaming": {
+        "id": "gaming",
+        "gameId": 10000092,
+        "name": "Gaming",
+        "element": "Pyro",
+        "weaponType": "Claymore",
+        "rarity": 4,
+        "releasePatch": "4.4",
+        "materials": {
+            "ascensionBoss": "Emperor of Fire and Iron",
+            "weeklyBossMaterial": "Lightless Mass",
+            "talentBook": "Prosperity"
+        }
+    },
+    "xianyun": {
+        "id": "xianyun",
+        "gameId": 10000093,
+        "name": "Xianyun",
+        "element": "Anemo",
+        "weaponType": "Catalyst",
+        "rarity": 5,
+        "releasePatch": "4.4",
+        "materials": {
+            "ascensionBoss": "Solitary Suanni",
+            "weeklyBossMaterial": "Lightless Eye of the Maelstrom",
+            "talentBook": "Gold"
+        }
+    },
+    "chiori": {
+        "id": "chiori",
+        "gameId": 10000094,
+        "name": "Chiori",
+        "element": "Geo",
+        "weaponType": "Sword",
+        "rarity": 5,
+        "releasePatch": "4.5",
+        "materials": {
+            "ascensionBoss": "Icewind Suite: Dirge of Coppelia",
+            "weeklyBossMaterial": "Lightless Silk String",
+            "talentBook": "Light"
+        }
+    },
+    "sigewinne": {
+        "id": "sigewinne",
+        "gameId": 10000095,
+        "name": "Sigewinne",
+        "element": "Hydro",
+        "weaponType": "Bow",
+        "rarity": 5,
+        "releasePatch": "4.7",
+        "materials": {
+            "ascensionBoss": "Hydro Tulpa",
+            "weeklyBossMaterial": "Lightless Eye of the Maelstrom",
+            "talentBook": "Equity"
+        }
+    },
+    "arlecchino": {
+        "id": "arlecchino",
+        "gameId": 10000096,
+        "name": "Arlecchino",
+        "element": "Pyro",
+        "weaponType": "Polearm",
+        "rarity": 5,
+        "releasePatch": "4.6",
+        "materials": {
+            "ascensionBoss": "Legatus Golem",
+            "weeklyBossMaterial": "Fading Candle",
+            "talentBook": "Order"
+        }
+    },
+    "sethos": {
+        "id": "sethos",
+        "gameId": 10000097,
+        "name": "Sethos",
+        "element": "Electro",
+        "weaponType": "Bow",
+        "rarity": 4,
+        "releasePatch": "4.7",
+        "materials": {
+            "ascensionBoss": "Solitary Suanni",
+            "weeklyBossMaterial": "Daka's Bell",
+            "talentBook": "Praxis"
+        }
+    },
+    "clorinde": {
+        "id": "clorinde",
+        "gameId": 10000098,
+        "name": "Clorinde",
+        "element": "Electro",
+        "weaponType": "Sword",
+        "rarity": 5,
+        "releasePatch": "4.7",
+        "materials": {
+            "ascensionBoss": "Millennial Pearl Seahorse",
+            "weeklyBossMaterial": "Everamber",
+            "talentBook": "Justice"
+        }
+    },
+    "emilie": {
+        "id": "emilie",
+        "gameId": 10000099,
+        "name": "Emilie",
+        "element": "Dendro",
+        "weaponType": "Polearm",
+        "rarity": 5,
+        "releasePatch": "4.8",
+        "materials": {
+            "ascensionBoss": "Legatus Golem",
+            "weeklyBossMaterial": "Silken Feather",
+            "talentBook": "Order"
+        }
+    },
+    "kachina": {
+        "id": "kachina",
+        "gameId": 10000100,
+        "name": "Kachina",
+        "element": "Geo",
+        "weaponType": "Polearm",
+        "rarity": 4,
+        "releasePatch": "5.0",
+        "materials": {
+            "ascensionBoss": "Gluttonous Yumkasaur Mountain King",
+            "weeklyBossMaterial": "Fading Candle",
+            "talentBook": "Conflict"
+        }
+    },
+    "kinich": {
+        "id": "kinich",
+        "gameId": 10000101,
+        "name": "Kinich",
+        "element": "Dendro",
+        "weaponType": "Claymore",
+        "rarity": 5,
+        "releasePatch": "5.0",
+        "materials": {
+            "ascensionBoss": "Gluttonous Yumkasaur Mountain King",
+            "weeklyBossMaterial": "Denial and Judgment",
+            "talentBook": "Kindling"
+        }
+    },
+    "mualani": {
+        "id": "mualani",
+        "gameId": 10000102,
+        "name": "Mualani",
+        "element": "Hydro",
+        "weaponType": "Catalyst",
+        "rarity": 5,
+        "releasePatch": "5.0",
+        "materials": {
+            "ascensionBoss": "Goldflame Qucusaur Tyrant",
+            "weeklyBossMaterial": "Lightless Mass",
+            "talentBook": "Contention"
+        }
+    },
+    "xilonen": {
+        "id": "xilonen",
+        "gameId": 10000103,
+        "name": "Xilonen",
+        "element": "Geo",
+        "weaponType": "Sword",
+        "rarity": 5,
+        "releasePatch": "5.1",
+        "materials": {
+            "ascensionBoss": "Secret Source Automaton: Configuration Device",
+            "weeklyBossMaterial": "Mirror of Mushin",
+            "talentBook": "Kindling"
+        }
+    },
+    "chasca": {
+        "id": "chasca",
+        "gameId": 10000104,
+        "name": "Chasca",
+        "element": "Anemo",
+        "weaponType": "Bow",
+        "rarity": 5,
+        "releasePatch": "5.2",
+        "materials": {
+            "ascensionBoss": "Tenebrous Papilla: Type I",
+            "weeklyBossMaterial": "Silken Feather",
+            "talentBook": "Conflict"
+        }
+    },
+    "ororon": {
+        "id": "ororon",
+        "gameId": 10000105,
+        "name": "Ororon",
+        "element": "Electro",
+        "weaponType": "Bow",
+        "rarity": 4,
+        "releasePatch": "5.2",
+        "materials": {
+            "ascensionBoss": "Goldflame Qucusaur Tyrant",
+            "weeklyBossMaterial": "Lightless Silk String",
+            "talentBook": "Kindling"
+        }
+    },
+    "mavuika": {
+        "id": "mavuika",
+        "gameId": 10000106,
+        "name": "Mavuika",
+        "element": "Pyro",
+        "weaponType": "Claymore",
+        "rarity": 5,
+        "releasePatch": "5.3",
+        "materials": {
+            "ascensionBoss": "Secret Source Automaton: Configuration Device",
+            "weeklyBossMaterial": "Eroded Horn",
+            "talentBook": "Contention"
+        }
+    },
+    "citlali": {
+        "id": "citlali",
+        "gameId": 10000107,
+        "name": "Citlali",
+        "element": "Cryo",
+        "weaponType": "Catalyst",
+        "rarity": 5,
+        "releasePatch": "5.3",
+        "materials": {
+            "ascensionBoss": "Wayward Hermetic Spiritspeaker",
+            "weeklyBossMaterial": "Denial and Judgment",
+            "talentBook": "Kindling"
+        }
+    },
+    "lan-yan": {
+        "id": "lan-yan",
+        "gameId": 10000108,
+        "name": "Lan Yan",
+        "element": "Anemo",
+        "weaponType": "Catalyst",
+        "rarity": 4,
+        "releasePatch": "5.3",
+        "materials": {
+            "ascensionBoss": "Secret Source Automaton: Configuration Device",
+            "weeklyBossMaterial": "Eroded Sunfire",
+            "talentBook": "Diligence"
+        }
+    },
+    "yumemizuki-mizuki": {
+        "id": "yumemizuki-mizuki",
+        "gameId": 10000109,
+        "name": "Yumemizuki Mizuki",
+        "shortName": "Mizuki",
+        "element": "Anemo",
+        "weaponType": "Catalyst",
+        "rarity": 5,
+        "releasePatch": "5.4",
+        "materials": {
+            "ascensionBoss": "Wayward Hermetic Spiritspeaker",
+            "weeklyBossMaterial": "Fading Candle",
+            "talentBook": "Transience"
+        }
+    },
+    "iansan": {
+        "id": "iansan",
+        "gameId": 10000110,
+        "name": "Iansan",
+        "element": "Electro",
+        "weaponType": "Polearm",
+        "rarity": 4,
+        "releasePatch": "5.5",
+        "materials": {
+            "ascensionBoss": "Tenebrous Papilla: Type I",
+            "weeklyBossMaterial": "Denial and Judgment",
+            "talentBook": "Contention"
+        }
+    },
+    "varesa": {
+        "id": "varesa",
+        "gameId": 10000111,
+        "name": "Varesa",
+        "element": "Electro",
+        "weaponType": "Catalyst",
+        "rarity": 5,
+        "releasePatch": "5.5",
+        "materials": {
+            "ascensionBoss": "Lava Dragon Statue",
+            "weeklyBossMaterial": "Eroded Scale-Feather",
+            "talentBook": "Conflict"
+        }
+    },
+    "escoffier": {
+        "id": "escoffier",
+        "gameId": 10000112,
+        "name": "Escoffier",
+        "element": "Cryo",
+        "weaponType": "Polearm",
+        "rarity": 5,
+        "releasePatch": "5.6",
+        "materials": {
+            "ascensionBoss": "Secret Source Automaton: Overseer Device",
+            "weeklyBossMaterial": "Eroded Horn",
+            "talentBook": "Justice"
+        }
+    },
+    "ifa": {
+        "id": "ifa",
+        "gameId": 10000113,
+        "name": "Ifa",
+        "element": "Anemo",
+        "weaponType": "Catalyst",
+        "rarity": 4,
+        "releasePatch": "5.6",
+        "materials": {
+            "ascensionBoss": "Lava Dragon Statue",
+            "weeklyBossMaterial": "Ascended Sample: Rook",
+            "talentBook": "Conflict"
+        }
+    },
+    "skirk": {
+        "id": "skirk",
+        "gameId": 10000114,
+        "name": "Skirk",
+        "element": "Cryo",
+        "weaponType": "Sword",
+        "rarity": 5,
+        "releasePatch": "5.7",
+        "materials": {
+            "ascensionBoss": "Tenebrous Papilla: Type I",
+            "weeklyBossMaterial": "Ascended Sample: Knight",
+            "talentBook": "Contention"
+        }
+    },
+    "dahlia": {
+        "id": "dahlia",
+        "gameId": 10000115,
+        "name": "Dahlia",
+        "element": "Hydro",
+        "weaponType": "Sword",
+        "rarity": 4,
+        "releasePatch": "5.7",
+        "materials": {
+            "ascensionBoss": "Secret Source Automaton: Overseer Device",
+            "weeklyBossMaterial": "Eroded Scale-Feather",
+            "talentBook": "Ballad"
+        }
+    },
+    "ineffa": {
+        "id": "ineffa",
+        "gameId": 10000116,
+        "name": "Ineffa",
+        "element": "Electro",
+        "weaponType": "Polearm",
+        "rarity": 5,
+        "releasePatch": "5.8",
+        "materials": {
+            "ascensionBoss": "Secret Source Automaton: Overseer Device",
+            "weeklyBossMaterial": "Eroded Sunfire",
+            "talentBook": "Conflict"
+        }
+    },
+    "lauma": {
+        "id": "lauma",
+        "gameId": 10000119,
+        "name": "Lauma",
+        "element": "Dendro",
+        "weaponType": "Catalyst",
+        "rarity": 5,
+        "releasePatch": "6.0",
+        "materials": {
+            "ascensionBoss": "Radiant Moonfly",
+            "weeklyBossMaterial": "Eroded Scale-Feather",
+            "talentBook": "Moonlight"
+        }
+    },
+    "flins": {
+        "id": "flins",
+        "gameId": 10000120,
+        "name": "Flins",
+        "element": "Electro",
+        "weaponType": "Polearm",
+        "rarity": 5,
+        "releasePatch": "6.0",
+        "materials": {
+            "ascensionBoss": "Knuckle Duckle",
+            "weeklyBossMaterial": "Ascended Sample: Queen",
+            "talentBook": "Vagrancy"
+        }
+    },
+    "aino": {
+        "id": "aino",
+        "gameId": 10000121,
+        "name": "Aino",
+        "element": "Hydro",
+        "weaponType": "Claymore",
+        "rarity": 4,
+        "releasePatch": "6.0",
+        "materials": {
+            "ascensionBoss": "Knuckle Duckle",
+            "weeklyBossMaterial": "Silken Feather",
+            "talentBook": "Elysium"
+        }
+    },
+    "nefer": {
+        "id": "nefer",
+        "gameId": 10000122,
+        "name": "Nefer",
+        "element": "Dendro",
+        "weaponType": "Catalyst",
+        "rarity": 5,
+        "releasePatch": "6.1",
+        "materials": {
+            "ascensionBoss": "Frostnight Herra",
+            "weeklyBossMaterial": "Ascended Sample: Rook",
+            "talentBook": "Elysium"
+        }
+    },
+    "durin": {
+        "id": "durin",
+        "gameId": 10000123,
+        "name": "Durin",
+        "element": "Pyro",
+        "weaponType": "Sword",
+        "rarity": 5,
+        "releasePatch": "6.2",
+        "materials": {
+            "ascensionBoss": "Super-Heavy Landrover: Mechanized Fortress",
+            "weeklyBossMaterial": "Eroded Sunfire",
+            "talentBook": "Ballad"
+        }
+    },
+    "jahoda": {
+        "id": "jahoda",
+        "gameId": 10000124,
+        "name": "Jahoda",
+        "element": "Anemo",
+        "weaponType": "Bow",
+        "rarity": 4,
+        "releasePatch": "6.2",
+        "materials": {
+            "ascensionBoss": "Radiant Moonfly",
+            "weeklyBossMaterial": "Ascended Sample: Knight",
+            "talentBook": "Vagrancy"
+        }
+    },
+    "columbina": {
+        "id": "columbina",
+        "gameId": 10000125,
+        "name": "Columbina",
+        "element": "Hydro",
+        "weaponType": "Catalyst",
+        "rarity": 5,
+        "releasePatch": "6.3",
+        "materials": {
+            "ascensionBoss": "Frostnight Herra",
+            "weeklyBossMaterial": "Mask of the Virtuous Doctor",
+            "talentBook": "Moonlight"
+        }
+    },
+    "zibai": {
+        "id": "zibai",
+        "gameId": 10000126,
+        "name": "Zibai",
+        "element": "Geo",
+        "weaponType": "Sword",
+        "rarity": 5,
+        "releasePatch": "6.3",
+        "materials": {
+            "ascensionBoss": "Lord of the Hidden Depths: Whisperer of Nightmares",
+            "weeklyBossMaterial": "Ascended Sample: Queen",
+            "talentBook": "Gold"
+        }
+    },
+    "illuga": {
+        "id": "illuga",
+        "gameId": 10000127,
+        "name": "Illuga",
+        "element": "Geo",
+        "weaponType": "Polearm",
+        "rarity": 4,
+        "releasePatch": "6.3",
+        "materials": {
+            "ascensionBoss": "Super-Heavy Landrover: Mechanized Fortress",
+            "weeklyBossMaterial": "Eroded Horn",
+            "talentBook": "Elysium"
+        }
+    },
+    "varka": {
+        "id": "varka",
+        "gameId": 10000128,
+        "name": "Varka",
+        "element": "Anemo",
+        "weaponType": "Claymore",
+        "rarity": 5,
+        "releasePatch": "6.4",
+        "materials": {
+            "ascensionBoss": "Radiant Moongecko",
+            "weeklyBossMaterial": "Ascended Sample: Rook",
+            "talentBook": "Freedom"
+        }
+    }
+}

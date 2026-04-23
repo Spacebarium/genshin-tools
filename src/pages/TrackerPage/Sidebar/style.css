@@ -1,0 +1,183 @@
+.tracker-sidebar {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 auto;
+    gap: 0.8rem;
+    width: 340px;
+    background: var(--bg-surface);
+    border-left: 1px solid var(--border);
+    padding: 1rem;
+    color: var(--text-secondary);
+}
+
+.tracker-actions {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.6rem;
+
+    button {
+        flex: 1;
+        padding: 0.35rem 0.85rem;
+        background: transparent;
+        border: 1px solid var(--text-secondary);
+        border-radius: 4px;
+        color: var(--text-primary);
+        font-size: 0.8rem;
+        text-wrap: nowrap;
+        cursor: pointer;
+        transition:
+            border-color 0.15s,
+            color 0.15s,
+            background 0.15s;
+
+        &:hover {
+            /* border-color: var(--accent);
+            color: var(--accent); */
+            background: var(--bg-raised);
+            /* opacity: 0.9; */
+        }
+    }
+
+    .tracker-selector {
+        flex: 1;
+        outline: none;
+        padding: 0.35rem 0.8rem;
+        background: transparent;
+        border: 1px solid var(--text-secondary);
+        border-radius: 4px;
+        color: var(--text-primary);
+        font-size: 0.8rem;
+        line-height: 1.1;
+
+        option {
+            outline: none;
+            padding: 0.2rem 0.4rem;
+            background: var(--bg-surface);
+            border: 1px solid var(--text-secondary);
+            color: var(--text-primary);
+
+            &:hover {
+                opacity: 0.9;
+            }
+        }
+
+        &:open::picker-icon {
+            rotate: 180deg;
+        }
+    }
+}
+
+.sidebar-card {
+    background: var(--bg-raised);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 0.75rem 2rem; /* thoughts? */
+    font-size: 12px;
+    /* font-variant-numeric: tabular-nums; */
+
+    /* .card-header {
+        color: var(--text-primary);
+        font-size: 0.9rem;
+        font-weight: 700;
+        letter-spacing: 0.01em;
+        text-transform: uppercase;
+        text-align: center;
+        font-variant-numeric: normal;
+    } */
+
+    .today-local {
+        /* font-family: "HYWenHei", sans-serif; */
+        font-size: 1.5rem;
+        font-weight: 700;
+        font-variant-numeric: tabular-nums;
+        letter-spacing: -0.05rem;
+        color: var(--accent);
+        text-align: center;
+        margin-bottom: 0.5rem;
+    }
+
+    .today-server {
+        display: flex;
+        /* justify-content: flex-end; */
+        gap: 0.5rem;
+        align-items: center;
+        color: var(--text-secondary);
+        font-variant-numeric: tabular-nums;
+
+        .today-region {
+            color: var(--text-primary);
+            font-weight: 700;
+        }
+    }
+
+    .today-reset {
+        color: var(--text-secondary);
+        margin-bottom: 0.5rem;
+        /* text-align: right; */
+
+        .reset-countdown {
+            color: var(--accent);
+            font-weight: 700;
+            font-variant-numeric: tabular-nums;
+        }
+    }
+
+    .today-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0.1rem 0.5rem;
+
+        .header-row {
+            color: var(--text-secondary);
+            font-weight: 700;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            padding-bottom: 0.2rem;
+            border-bottom: 1px solid var(--border);
+            margin-bottom: 0.1rem;
+
+            &:nth-child(2) {
+                color: var(--text-primary);
+            }
+        }
+
+        .region {
+            color: var(--text-secondary);
+        }
+
+        .book {
+            color: var(--text-primary);
+        }
+    }
+
+    .spending-grid {
+        display: grid;
+        grid-template-columns: auto 1fr auto;
+        gap: 0.1rem 2rem;
+
+        .header-row {
+            color: var(--text-primary);
+            font-weight: 700;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            text-align: right;
+            padding-bottom: 0.2rem;
+            border-bottom: 1px solid var(--border);
+            margin-bottom: 0.1rem;
+        }
+
+        .spending-amount {
+            color: var(--text-primary);
+            text-align: right;
+            font-variant-numeric: tabular-nums;
+        }
+    }
+
+    .card-note {
+        margin: 0.5rem 0 0;
+        font-size: 11px;
+        color: var(--text-secondary);
+        line-height: 1.4;
+        font-style: italic;
+    }
+}

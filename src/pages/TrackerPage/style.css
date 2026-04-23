@@ -1,0 +1,6 @@
+.table-container {
+    flex: 1;
+    overflow: auto;
+    scrollbar-width: thin;
+    scrollbar-color: var(--border-accent) transparent;
+}
