@@ -10,7 +10,7 @@ import "@/styles/style.css";
 
 createRoot(document.getElementById("root")!).render(
     <StrictMode>
-        <BrowserRouter>
+        <BrowserRouter basename="/genshin-tools">
             <App />
         </BrowserRouter>
     </StrictMode>,
