@@ -18,7 +18,7 @@ export const DraggableCharacter = ({
     origin,
 }: DraggableCharacterProps) => {
     // if from team slot, give scoped id; if from pool, use char id
-    const uniqueId = origin ? `TEAM_${origin.teamId}-SLOT_${origin.slotIndex}-${id}` : `POOL_${id}`;
+    const uniqueId = origin ? `TEAM_${origin.teamId}-SLOT_${origin.slotIndex}` : `POOL_${id}`;
 
     const { ref, isDragging } = useDraggable({
         id: uniqueId,

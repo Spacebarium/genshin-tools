@@ -3,7 +3,7 @@ import { useCharacterFilterStore } from "@/store/useCharacterFilterStore";
 import { useTrackerStore } from "@/store/useTrackerStore";
 import { ELEMENTS, WEAPON_TYPES } from "@/types/character";
 import { resolveIconId } from "@/utils/helper";
-import { useMemo } from "react";
+import { useMemo, useState } from "react";
 import { DraggableCharacter } from "../components/DraggableCharacter";
 import "./style.css";
 
@@ -18,9 +18,15 @@ export const CharacterPool = () => {
     } = useCharacterFilterStore();
 
     const progress = useTrackerStore((state) => state.progress);
+    const [searchQuery, setSearchQuery] = useState("");
 
     const filteredCharacters = useMemo(() => {
         let characters = Object.values(CHARACTER_DATABASE);
+
+        if (searchQuery.trim()) {
+            const query = searchQuery.toLowerCase().trim();
+            characters = characters.filter((char) => char.name.toLowerCase().includes(query));
+        }
 
         if (showOnlyOwned) {
             characters = characters.filter((char) => !!progress[char.id]);
@@ -35,7 +41,7 @@ export const CharacterPool = () => {
         }
 
         return [...characters].sort((a, b) => a.name.localeCompare(b.name));
-    }, [progress, showOnlyOwned, elementFilter, weaponFilter]);
+    }, [progress, showOnlyOwned, elementFilter, weaponFilter, searchQuery]);
 
     return (
         <aside className="character-pool">
@@ -95,16 +101,40 @@ export const CharacterPool = () => {
                     </div>
                 </div>
             </header>
+            <div className="search-row">
+                <input
+                    type="text"
+                    className="search-input"
+                    placeholder="Search characters..."
+                    value={searchQuery}
+                    onChange={(e) => setSearchQuery(e.target.value)}
+                />
+                {searchQuery && (
+                    <button
+                        className="search-clear"
+                        onClick={() => setSearchQuery("")}
+                        aria-label="Clear search"
+                    >
+                        ×
+                    </button>
+                )}
+            </div>
             <div className="pool-grid">
-                {filteredCharacters.map((char) => (
-                    <DraggableCharacter
-                        key={char.id}
-                        id={char.id}
-                        name={char.name}
-                        iconId={resolveIconId(char.id)}
-                        isOwned={!!progress[char.id]}
-                    />
-                ))}
+                {filteredCharacters.length > 0 ? (
+                    filteredCharacters.map((char) => (
+                        <DraggableCharacter
+                            key={char.id}
+                            id={char.id}
+                            name={char.name}
+                            iconId={resolveIconId(char.id)}
+                            isOwned={!!progress[char.id]}
+                        />
+                    ))
+                ) : (
+                    <div className="pool-empty">
+                        <p>🥀 no characters found</p>
+                    </div>
+                )}
             </div>
         </aside>
     );
