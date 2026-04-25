@@ -6,7 +6,7 @@ export default function App() {
     return (
         <div className="app-layout">
             <header className="app-header">
-                <h1>Genshin Dashboard</h1>
+                <h1>Genshin Tools</h1>
                 <nav className="top-nav">
                     <NavLink to="/" className="nav-item">
                         <span>Tracker</span>
@@ -16,7 +16,6 @@ export default function App() {
                     </NavLink>
                 </nav>
             </header>
-
             <Routes>
                 <Route path="/" element={<TrackerPage />} />
                 <Route path="/teams" element={<TeamBuilderPage />} />

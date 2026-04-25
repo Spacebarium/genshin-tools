@@ -12,12 +12,9 @@ export const CharacterPool = () => {
         showOnlyOwned,
         elementFilter,
         weaponFilter,
-        sortBy,
         setShowOnlyOwned,
         toggleElementFilter,
         toggleWeaponFilter,
-        // setSortBy,
-        // clearFilters,
     } = useCharacterFilterStore();
 
     const progress = useTrackerStore((state) => state.progress);
@@ -37,21 +34,8 @@ export const CharacterPool = () => {
             characters = characters.filter((char) => weaponFilter.includes(char.weaponType));
         }
 
-        return [...characters].sort((a, b) => {
-            switch (sortBy) {
-                case "name-asc":
-                    return a.name.localeCompare(b.name);
-                case "name-desc":
-                    return b.name.localeCompare(a.name);
-                case "release-new":
-                    return b.releasePatch.localeCompare(a.releasePatch);
-                case "release-old":
-                    return a.releasePatch.localeCompare(b.releasePatch);
-                default:
-                    return 0;
-            }
-        });
-    }, [progress, showOnlyOwned, elementFilter, weaponFilter, sortBy]);
+        return [...characters].sort((a, b) => a.name.localeCompare(b.name));
+    }, [progress, showOnlyOwned, elementFilter, weaponFilter]);
 
     return (
         <aside className="character-pool">
@@ -75,7 +59,9 @@ export const CharacterPool = () => {
                             <button
                                 key={element}
                                 className="filter-pill"
-                                data-active={elementFilter.includes(element)}
+                                data-active={
+                                    elementFilter.length === 0 || elementFilter.includes(element)
+                                }
                                 data-element={element.toLowerCase()}
                                 onClick={() => toggleElementFilter(element)}
                                 title={element}

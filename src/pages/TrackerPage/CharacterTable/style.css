@@ -5,7 +5,8 @@
     width: 100%;
     min-width: 80em;
     line-height: 1.2;
-    font-size: 12px;
+    font-size: 15px;
+    background: var(--bg-base);
 
     * {
         cursor: default;
@@ -25,7 +26,7 @@
         border-bottom: 2px solid var(--border-accent);
 
         font-weight: 700;
-        font-size: 10.5px;
+        font-size: 0.75rem;
         text-align: center;
         color: var(--text-secondary);
         letter-spacing: 0.04em;
@@ -90,7 +91,7 @@
         border: none;
         padding: 0;
         line-height: 1;
-        width: 15.6px; /* force consistent, roughly 2 chars wide */
+        width: 1.3em;
         color: var(--text-primary);
         text-align: center;
 
@@ -119,20 +120,21 @@
     input[type="checkbox"] {
         width: 13px;
         height: 13px;
-        margin: 3px;
+        /* margin: 0 auto; */
         accent-color: var(--accent);
         cursor: pointer;
     }
 
     [data-col="is-owned"] {
         left: 0;
-        width: 2.4em;
+        width: 2.5em;
         text-align: center;
     }
 
     [data-col="name"] {
-        left: 25.2px; /* width of is-owned col */
+        left: 2em; /* width of is-owned col */
         width: 12.5em;
+        /* background: white!important; */
 
         span {
             display: block;
@@ -148,7 +150,7 @@
     }
 
     [data-col="element"] {
-        width: 6em;
+        width: 6.2em;
     }
 
     [data-col="rarity"] {
@@ -176,8 +178,8 @@
 
     [data-col="constellation"],
     [data-col^="talent-"] {
-        width: 2.7em;
-        max-width: 2.7em;
+        width: 2.65em;
+        /* max-width: 2.6em; */
         text-align: center;
     }
 

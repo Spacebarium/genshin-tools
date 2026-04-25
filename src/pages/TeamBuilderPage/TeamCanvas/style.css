@@ -3,4 +3,106 @@
     flex-direction: column;
     flex: 1;
     background: var(--bg-base);
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1rem;
+    gap: 0.8rem;
+    overflow-y: auto;
+}
+
+.team-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.4rem;
+    gap: 0.4rem;
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    width: fit-content;
+}
+
+.team-content {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1.5rem;
+    gap: 0.3rem;
+}
+
+.drag-grip {
+    font-size: 1.2rem;
+    height: 100%;
+    cursor: grab;
+    background: none;
+    border: none;
+    color: var(--text-secondary);
+    transition: color 0.2s;
+
+    &:hover {
+        color: var(--text-primary);
+    }
+}
+
+.team-name-input {
+    width: 100%;
+    background: transparent;
+    border: none;
+    color: var(--text-primary);
+    font-size: 1.2rem;
+}
+
+.delete-team-btn {
+    color: #ff4d4f;
+    opacity: 0.6;
+    transition: opacity 0.2s;
+    background: none;
+    border: none;
+    cursor: pointer;
+
+    &:hover {
+        opacity: 1;
+    }
+}
+
+.team-slots-grid {
+    display: flex;
+    flex-direction: row;
+    gap: 0.4rem;
+}
+
+.team-slot {
+    width: 64px;
+    height: 64px;
+    background: var(--bg-secondary);
+    outline: 2px dashed var(--border);
+    outline-offset: -2px;
+    border-radius: 4px;
+    /* display: flex;
+    align-items: start;
+    justify-content: center; */
+    position: relative;
+
+    .draggable-character {
+        position: relative;
+        z-index: 1;
+    }
+}
+
+.add-team-btn {
+    padding: 0.5rem 1.2rem;
+    background: var(--bg-surface);
+    border: 2px dashed var(--border);
+    border-radius: 8px;
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition:
+        border-color 0.2s,
+        color 0.2s;
+    width: fit-content;
+
+    &:hover {
+        border-color: var(--text-secondary);
+        color: var(--text-primary);
+    }
 }

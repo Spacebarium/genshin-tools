@@ -1,19 +1,15 @@
 import { create } from "zustand";
 import { persist } from "zustand/middleware";
 import type { Element, WeaponType } from "@/types/character";
-
-type SortOption = "name-asc" | "name-desc" | "release-new" | "release-old";
+import { ELEMENTS } from "@/types/character";
 
 interface CharacterFilterState {
     showOnlyOwned: boolean;
     elementFilter: Element[];
     weaponFilter: WeaponType[];
-    sortBy: SortOption;
     setShowOnlyOwned: (val: boolean) => void;
     toggleElementFilter: (val: Element) => void;
     toggleWeaponFilter: (val: WeaponType) => void;
-    setSortBy: (val: SortOption) => void;
-    clearFilters: () => void;
 }
 
 export const useCharacterFilterStore = create<CharacterFilterState>()(
@@ -22,26 +18,29 @@ export const useCharacterFilterStore = create<CharacterFilterState>()(
             showOnlyOwned: false,
             elementFilter: [],
             weaponFilter: [],
-            sortBy: "name-asc",
 
             setShowOnlyOwned: (val) => set({ showOnlyOwned: val }),
 
-            toggleElementFilter: (val) =>
-                set((state) => ({
-                    elementFilter: state.elementFilter.includes(val)
-                        ? state.elementFilter.filter((e) => e !== val)
-                        : [...state.elementFilter, val],
-                })),
+            toggleElementFilter: (element) =>
+                set((state) => {
+                    const { elementFilter } = state;
 
-            toggleWeaponFilter: (val) =>
-                set((state) => ({
-                    weaponFilter: state.weaponFilter.includes(val)
-                        ? state.weaponFilter.filter((w) => w !== val)
-                        : [...state.weaponFilter, val],
-                })),
+                    if (elementFilter.length === 0 || elementFilter.length === ELEMENTS.length) {
+                        return { elementFilter: [element] };
+                    }
 
-            setSortBy: (val) => set({ sortBy: val }),
-            clearFilters: () => set({ elementFilter: [], weaponFilter: [] }),
+                    const newFilter = elementFilter.includes(element)
+                        ? elementFilter.filter((e) => e !== element)
+                        : [...elementFilter, element];
+                    return { elementFilter: newFilter };
+                }),
+
+            toggleWeaponFilter: (weapon) =>
+                set((state) => ({
+                    weaponFilter: state.weaponFilter.includes(weapon)
+                        ? state.weaponFilter.filter((w) => w !== weapon)
+                        : [...state.weaponFilter, weapon],
+                })),
         }),
         { name: "character-filter-storage" },
     ),

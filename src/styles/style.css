@@ -2,12 +2,14 @@
     display: flex;
     flex-direction: column;
     height: 100vh;
+    background-color: var(--bg-base);
+    /* background-color: white; */
 
     .app-header {
         display: flex;
         align-items: center;
         /* justify-content: space-between; */
-        padding: 0.75rem 1.25rem;
+        padding: 0.8rem 1.25rem;
         background: var(--bg-header);
         border-bottom: 1px solid var(--border);
         gap: 1rem;
@@ -15,7 +17,7 @@
         h1 {
             margin: 0;
             font-family: "HYWenHei", "Atkinson Hyperlegible Next", sans-serif;
-            font-size: 24px;
+            font-size: 1.5rem;
             font-weight: 400;
             color: var(--accent);
             white-space: nowrap;
@@ -26,9 +28,9 @@
             display: flex;
             flex-direction: row;
             padding: 0 1rem;
-            gap: 1.5rem;
+            gap: 1.2rem;
             font-family: "HYWenHei", "Atkinson Hyperlegible Next", sans-serif;
-            font-size: 0.9rem;
+            font-size: 1rem;
 
             .nav-item {
                 display: flex;
@@ -47,6 +49,9 @@
         display: flex;
         flex: 1;
         overflow: hidden;
+        width: 100%;
+        max-width: 1920px;
+        margin: 0 auto;
     }
 
     .pill {
@@ -56,7 +61,7 @@
         background-color: var(--pill-colour, var(--default));
 
         color: var(--pill-text, var(--text-primary));
-        font-size: 12px;
+        /* font-size: 12px; */
         text-align: center;
         overflow: hidden;
         text-overflow: ellipsis;
